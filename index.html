@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caja</title>
+</head>
+<body>
+    <h4>Impuesto anual: </h4>
+    <p>
+        <label>Nombre de Cliente</label>
+        <input type="text" id="cliente">
+        <br>
+    </p>
+    <p>
+        <label>Monto total de ventas: </label>
+        <input type="number" id="ventas">
+        <br>
+    </p>
+    <p>
+        <label>Deducciones: </label>
+        <input type="number" id="deducciones">
+    </p>
+    <button id="calcular">Calcular</button>
+    <div>
+        <p>El resultado es: <span id="resultado"></span></p>
+    </div>
+
+    <script type="module" src="./src/index.js"></script>
+</body>
+</html>
