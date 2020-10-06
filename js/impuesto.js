@@ -1,4 +1,4 @@
-export default class Impuesto {
+export class Impuesto {
     constructor(ventas, deducciones) {
         this._ventas = ventas;
         this._deducciones = deducciones;

@@ -1,4 +1,4 @@
-import Impuesto from './impuesto.js';
+import {Impuesto} from '../js/impuesto.js';
 import Cliente from './cliente.js';
 
 const babel = require("@babel/core");
